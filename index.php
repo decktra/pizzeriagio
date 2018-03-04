@@ -64,7 +64,7 @@
                     <div class="item active">
                         <div class="carousel-caption">
                             <div class="fadeUp item_img">
-                                <img src="http://via.placeholder.com/389x237" alt="sample" />
+                                <img src="img/photos/pizza.png" alt="sample" />
                                 <div class="item_badge">
                                     <span class="badge_btext">20%</span>
                                     <span class="badge_stext">OFF</span>
@@ -83,7 +83,7 @@
                     <div class="item">
                         <div class="carousel-caption">
                             <div class="fadeUp item_img">
-                                <img src="http://via.placeholder.com/389x237" alt="sample" />
+                                <img src="img/photos/pizza.png" alt="sample" />
                                 <div class="item_badge">
                                     <span class="badge_btext">20%</span>
                                     <span class="badge_stext">OFF</span>
@@ -102,7 +102,7 @@
                     <div class="item">
                         <div class="carousel-caption">
                             <div class="fadeUp item_img">
-                                <img src="http://via.placeholder.com/389x237" alt="sample" />
+                                <img src="img/photos/pizza.png" alt="sample" />
                                 <div class="item_badge">
                                     <span class="badge_btext">20%</span>
                                     <span class="badge_stext">OFF</span>
@@ -121,7 +121,7 @@
                     <div class="item">
                         <div class="carousel-caption">
                             <div class="fadeUp item_img">
-                                <img src="http://via.placeholder.com/389x237" alt="sample" />
+                                <img src="img/photos/pizza.png" alt="sample" />
                                 <div class="item_badge">
                                     <span class="badge_btext">20%</span>
                                     <span class="badge_stext">OFF</span>
@@ -140,7 +140,7 @@
                     <div class="item">
                         <div class="carousel-caption">
                             <div class="fadeUp item_img">
-                                <img src="http://via.placeholder.com/389x237" alt="sample" />
+                                <img src="img/photos/pizza.png" alt="sample" />
                                 <div class="item_badge">
                                     <span class="badge_btext">20%</span>
                                     <span class="badge_stext">OFF</span>
@@ -1000,7 +1000,7 @@
 
 <!-- END mobile right burger menu -->
 
-<!-- JavaScript --> 
+<!-- JavaScript -->
 <script src="js/jquery-2.1.1.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/jquery.mousewheel.min.js"></script>
