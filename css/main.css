@@ -689,7 +689,7 @@ a:focus {
 }
 
 .menu_filter {
-    margin-bottom: 20px;
+    margin-bottom: 80px;
 }
 
 .menu_filter .item {
@@ -805,6 +805,7 @@ a:focus {
 #menu_items .block {
     display: block;
     text-decoration: none;
+    margin-bottom: 35px;
 }
 
 #menu_items .content {
