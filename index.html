@@ -22,6 +22,7 @@
     <link href="css/bootstrap-datepicker.css" type="text/css" rel="stylesheet" />
     <link href="css/bootstrap-datetimepicker.css" type="text/css" rel="stylesheet" />
     <link href="css/touch-sideswipe.css" type="text/css" rel="stylesheet" />
+    <link href="css/fancb/jquery.fancybox.css" type="text/css" rel="stylesheet" />
     <link href="css/main.css" type="text/css" rel="stylesheet" />
     <link href="css/responsive.css" type="text/css" rel="stylesheet" />
 
@@ -736,7 +737,7 @@
             <div id="photo_gallery">
                 <div class="row">
                     <div class="col-md-3">
-                        <a href="javascript:;" class="block">
+                        <a href="img/photos/gallery-1.jpg" class="block fancybox" rel="gallery">
                             <div class="content">
                                 <img src="img/photos/gallery-1.jpg" alt="sample" />
                                 <div class="zoom">
@@ -746,7 +747,7 @@
                         </a>
                     </div>
                     <div class="col-md-3">
-                        <a href="javascript:;" class="block">
+                        <a href="img/photos/gallery-2.jpg" class="block fancybox" rel="gallery">
                             <div class="content">
                                 <img src="img/photos/gallery-2.jpg" alt="sample" />
                                 <div class="zoom">
@@ -756,7 +757,7 @@
                         </a>
                     </div>
                     <div class="col-md-3">
-                        <a href="javascript:;" class="block">
+                        <a href="img/photos/gallery-3.jpg" class="block fancybox" rel="gallery">
                             <div class="content">
                                 <img src="img/photos/gallery-3.jpg" alt="sample" />
                                 <div class="zoom">
@@ -766,7 +767,7 @@
                         </a>
                     </div>
                     <div class="col-md-3">
-                        <a href="javascript:;" class="block">
+                        <a href="img/photos/gallery-4.jpg" class="block fancybox" rel="gallery">
                             <div class="content">
                                 <img src="img/photos/gallery-4.jpg" alt="sample" />
                                 <div class="zoom">
@@ -776,7 +777,7 @@
                         </a>
                     </div>
                     <div class="col-md-3">
-                        <a href="javascript:;" class="block">
+                        <a href="img/photos/gallery-5.jpg" class="block fancybox" rel="gallery">
                             <div class="content">
                                 <img src="img/photos/gallery-5.jpg" alt="sample" />
                                 <div class="zoom">
@@ -786,7 +787,7 @@
                         </a>
                     </div>
                     <div class="col-md-3">
-                        <a href="javascript:;" class="block">
+                        <a href="img/photos/gallery-6.jpg" class="block fancybox" rel="gallery">
                             <div class="content">
                                 <img src="img/photos/gallery-6.jpg" alt="sample" />
                                 <div class="zoom">
@@ -796,7 +797,7 @@
                         </a>
                     </div>
                     <div class="col-md-3">
-                        <a href="javascript:;" class="block">
+                        <a href="img/photos/gallery-7.jpg" class="block fancybox" rel="gallery">
                             <div class="content">
                                 <img src="img/photos/gallery-7.jpg" alt="sample" />
                                 <div class="zoom">
@@ -806,7 +807,7 @@
                         </a>
                     </div>
                     <div class="col-md-3">
-                        <a href="javascript:;" class="block">
+                        <a href="img/photos/gallery-8.jpg" class="block fancybox" rel="gallery">
                             <div class="content">
                                 <img src="img/photos/gallery-8.jpg" alt="sample" />
                                 <div class="zoom">
@@ -1017,6 +1018,7 @@
     <script src="js/bootstrap-datepicker.js"></script>
     <script src="js/bootstrap-datetimepicker.js"></script>
     <script src="js/touch-sideswipe.js"></script>
+    <script src="js/jquery.fancybox.js"></script>
     <script src="js/main.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBcg5Y2D1fpGI12T8wcbtPIsyGdw-_NV1Y&callback=myMap"></script>
     <script>
@@ -1031,7 +1033,30 @@
             });
         });
     </script>
+    <script type="text/javascript">
+        jQuery(document).ready(function($) {
+            $('.fancybox')
+                .fancybox({                     
+                beforeShow: function () {
+                    if (this.title) {
+                        // New line
+                        this.title += '<br />';
+                    }
+                },
+                afterShow: function () {
+                },  
+                helpers: {
+                    title: {
+                        type: 'inside'
+                    }, //<-- add a comma to separate the following option
+                    buttons: {} //<-- add this for buttons
+                },
+                closeBtn: true, // you will use the buttons now
+                arrows: true
+            });  
+        });            
+    </script>    
 
 </body>
 
-</html>
+</html> 
