@@ -5,26 +5,36 @@
   
     1 - Global
         1.1 - Fonts
+
     2 - Header
         2.1 - Navigation
         2.2 - Carousel
+
     3 - Sections
         3.1 - About us
         3.3 - Portfolio
-        3.4 - gallery
+        3.4 - Gallery
         3.5 - Partners
         3.6 - Contact Form
-    4 - Footer
-        4.1 - Contacts
-        4.2 - Google Map
+
+    4 - Pagination
+
+    5 - Fixed Layer
+
+    6 - Footer
+        6.1 - Google map
+
+    7 - Mobile right menu
          
 -----------------------------------------------------------------------------------*/
 
 
-/*----------------------------------------*/
+/*---------------------------------------- 
+==========================================
 
+  1.  Global
 
-/*  1.  Global
+==========================================
 /*----------------------------------------*/
 
 * {
@@ -60,7 +70,6 @@ a:focus {
     display: flex !important;
     display: -ms-flexbox !important;
     display: -webkit-flex;
-    /* Safari */
 }
 
 .d-inline-block {
@@ -117,10 +126,10 @@ a:focus {
 }
 
 
-/*----------------------------------------*/
+/*----------------------------------------
 
+  1.1.  Fonts
 
-/*  1.1.  Fonts
 /*----------------------------------------*/
 
 #gallery .members .name {
@@ -177,10 +186,20 @@ a:focus {
 }
 
 
-/*----  Header  ----*/
+/*----------------------------------------
+==========================================
+
+  2.  Header
+
+==========================================
+/*----------------------------------------*/
 
 
-/*----  Navigation  ----*/
+/*----------------------------------------
+
+  2.1.  Navigation
+
+/*----------------------------------------*/
 
 .affix .navbar_top {
     display: none;
@@ -359,7 +378,11 @@ a:focus {
 }
 
 
-/*----  Carousel    ----*/
+/*-----------------------------------------
+
+  2.2.  Carousel
+
+/*----------------------------------------*/
 
 .carousel {
     background: url('../img/slider_bg.jpg') top center no-repeat;
@@ -582,16 +605,13 @@ a:focus {
 }
 
 
-/*----  Sections
-                (
-                    #about_us,
-                    #menu,
-                    #gallery,
-                    #gallery,
-                    #contact,
-                    #contacts
-                )
-            ----*/
+/*----------------------------------------
+==========================================
+
+  3.  Sections
+
+==========================================
+/*----------------------------------------*/
 
 .section {
     padding-top: 90px;
@@ -628,7 +648,11 @@ a:focus {
 }
 
 
-/*----  About Us    ----*/
+/*-----------------------------------------
+
+  3.1.  About Us
+
+/*----------------------------------------*/
 
 #about_us {
     padding-top: 60px;
@@ -678,7 +702,11 @@ a:focus {
 }
 
 
-/*----    Menu   -----*/
+/*-----------------------------------------
+
+  3.2.  Menu
+
+/*----------------------------------------*/
 
 .filtr-item {
     display: none;
@@ -689,7 +717,7 @@ a:focus {
 }
 
 .menu_filter {
-    margin-bottom: 80px;
+    margin-bottom: 20px;
 }
 
 .menu_filter .item {
@@ -805,7 +833,6 @@ a:focus {
 #menu_items .block {
     display: block;
     text-decoration: none;
-    margin-bottom: 35px;
 }
 
 #menu_items .content {
@@ -859,106 +886,11 @@ a:focus {
 }
 
 
-/*---   Pagination    ---*/
+/*-----------------------------------------
 
-.pagination>li>a,
-.pagination>li>span {
-    border: none;
-    color: #31343f;
-}
+  3.3.  Photo Gallery
 
-.pagination>li>a {
-    min-width: 30px;
-    min-height: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #f6a525;
-    border: 1px solid #f6a525;
-    padding: 4px 10px;
-    margin-right: 7px;
-    border-radius: 30px!important;
-    transition: .3s ease-out;
-    font-family: 'Montserrat-Bold';
-}
-
-.pagination>li>a:hover,
-.pagination>li.active>a,
-.pagination>.active>a,
-.pagination>.active>a:focus,
-.pagination>.active>a:hover {
-    background: #990100;
-    color: #fff;
-    border-color: #990100;
-}
-
-.pagination>li>a.prev:hover,
-.pagination>li.active>a.prev,
-.pagination>.active>a.prev,
-.pagination>.active>a.prev:focus,
-.pagination>.active>a.prev:hover,
-.pagination>li>a.next:hover,
-.pagination>li.active>a.next,
-.pagination>.active>a.next,
-.pagination>.active>a.next:focus,
-.pagination>.active>a.next:hover {
-    background: none;
-    color: #31343f;
-    opacity: .6;
-}
-
-.pagination img {
-    margin-top: -2px;
-}
-
-
-/*----  Fixed layer    ----*/
-
-.fixed_layer {
-    position: relative;
-    background: url('../img/photos/reservation.jpg') 50% 0 no-repeat fixed;
-    background-size: cover;
-    color: #fff;
-    height: 560px;
-    padding: 40px 0;
-}
-
-.fixed_layer:after {
-    content: "";
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, .65);
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-.fixed_layer_padd {
-    margin: 0 auto;
-    text-align: center;
-    position: relative;
-    z-index: 1;
-}
-
-.fixed_layer_ttl {
-    font-size: 59px;
-    font-family: 'Montserrat-Light';
-    line-height: 115px;
-    text-transform: uppercase;
-}
-
-.fixed_layer_ttl strong {
-    font-family: 'Montserrat-Bold';
-}
-
-.fixed_layer_text {
-    font-size: 23px;
-    font-family: 'Montserrat-Light';
-    line-height: 42px;
-}
-
-
-/*---   Gallery    ---*/
+/*----------------------------------------*/
 
 #photo_gallery {
     height: 100%;
@@ -1067,7 +999,12 @@ a:focus {
 }
 
 
-/*---   Gallery    ---*/
+/*-----------------------------------------
+
+  3.4.  Gallery
+
+/*----------------------------------------*/
+
 
 #gallery .members .item {
     outline: 0;
@@ -1234,7 +1171,12 @@ a:focus {
 }
 
 
-/*---   Reservation    ---*/
+/*-----------------------------------------
+
+  3.5.  Reservation
+
+/*----------------------------------------*/
+
 
 .reserv_box {
     background-color: #f6a525;
@@ -1346,81 +1288,123 @@ a:focus {
 }
 
 
-/*---   Contact Form    ---*/
+/*-----------------------------------------
 
-#contact .form-group {
-    margin-bottom: 20px;
+  4.  Pagination
+
+/*----------------------------------------*/
+
+.pagination>li>a,
+.pagination>li>span {
+    border: none;
+    color: #31343f;
 }
 
-#contact .control-label {
-    font-size: 25px;
-    color: #379889;
-    text-transform: uppercase;
-    margin-bottom: 10px;
-}
-
-#contact .form-control {
-    font-size: 14px;
-    color: #a5a5a5;
-    text-transform: capitalize;
-    border-radius: 0;
-    padding: 26px 12px;
-}
-
-#contact input[type='text'].form-control {
-    height: 54px;
-    padding: 17px 12px;
-}
-
-#contact .form-control:focus {
-    border-color: #379889;
-    outline: 0;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(55, 152, 137, 0.6);
-    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(55, 152, 137, 0.6);
-}
-
-#contact textarea {
-    height: 200px;
-}
-
-#contact .btn {
-    margin-top: 13px;
-}
-
-
-/*---   Contacts    ---*/
-
-#contacts .item {
+.pagination>li>a {
+    min-width: 30px;
+    min-height: 30px;
     display: flex;
-    display: -ms-flexbox;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-}
-
-#contacts .icon {
-    font-size: 30px;
-    color: #379889;
-    border: 1px solid;
-    display: flex;
-    display: -ms-flexbox;
-    margin: auto auto 18px;
-    width: 61px;
-    height: 61px;
-    text-align: center;
-    justify-content: center;
     align-items: center;
-    border-radius: 100%;
+    justify-content: center;
+    color: #f6a525;
+    border: 1px solid #f6a525;
+    padding: 4px 10px;
+    margin-right: 7px;
+    border-radius: 30px!important;
+    transition: .3s ease-out;
+    font-family: 'Montserrat-Bold';
 }
 
-#contacts .contact-links {
-    color: #a5a5a5;
+.pagination>li>a:hover,
+.pagination>li.active>a,
+.pagination>.active>a,
+.pagination>.active>a:focus,
+.pagination>.active>a:hover {
+    background: #990100;
+    color: #fff;
+    border-color: #990100;
+}
+
+.pagination>li>a.prev:hover,
+.pagination>li.active>a.prev,
+.pagination>.active>a.prev,
+.pagination>.active>a.prev:focus,
+.pagination>.active>a.prev:hover,
+.pagination>li>a.next:hover,
+.pagination>li.active>a.next,
+.pagination>.active>a.next,
+.pagination>.active>a.next:focus,
+.pagination>.active>a.next:hover {
+    background: none;
+    color: #31343f;
+    opacity: .6;
+}
+
+.pagination img {
+    margin-top: -2px;
+}
+
+
+/*-----------------------------------------
+
+  5.  Fixed layer
+
+/*----------------------------------------*/
+
+
+.fixed_layer {
+    position: relative;
+    background: url('../img/photos/reservation.jpg') 50% 0 no-repeat fixed;
+    background-size: cover;
+    color: #fff;
+    height: 560px;
+    padding: 40px 0;
+}
+
+.fixed_layer:after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .65);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.fixed_layer_padd {
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.fixed_layer_ttl {
+    font-size: 59px;
+    font-family: 'Montserrat-Light';
+    line-height: 115px;
+    text-transform: uppercase;
+}
+
+.fixed_layer_ttl strong {
+    font-family: 'Montserrat-Bold';
+}
+
+.fixed_layer_text {
     font-size: 23px;
-    line-height: 1.3;
+    font-family: 'Montserrat-Light';
+    line-height: 42px;
 }
 
 
-/*---   Footer     ---*/
+
+/*---------------------------------------- 
+==========================================
+
+  6.  Footer
+
+==========================================
+/*----------------------------------------*/
+
 
 #contact {
     position: relative;
@@ -1605,7 +1589,22 @@ a:focus {
 }
 
 
-/*mobile left and right menu*/
+
+/*----------------------------------------
+
+  6.1.  Google map
+
+/*----------------------------------------*/
+
+
+
+/*---------------------------------------- 
+==========================================
+
+  7.  Mobile right menu
+
+==========================================
+/*----------------------------------------*/
 
 .rmenu_list li a {
     font-size: 15px;
