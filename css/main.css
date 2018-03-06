@@ -385,7 +385,7 @@ a:focus {
 /*----------------------------------------*/
 
 .carousel {
-    background: url('../img/slider_bg.jpg') top center no-repeat;
+    background: url('../img/photos/slider_bg.jpg') top center no-repeat;
     background-size: cover;
 }
 
