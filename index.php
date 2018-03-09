@@ -223,7 +223,7 @@
                                             <li><a class="page-scroll" href="#menu">Menus</a></li>
                                             <li><a class="page-scroll" href="#gallery">Gallery</a></li>
                                             <li><a class="page-scroll" href="#reservation">Reservation</a></li>
-                                            <li><a class="page-scroll" href="#contact">Contact</a></li>
+                                            <li><a class="page-scroll" href="#footer">Contact</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -841,7 +841,7 @@
         <!-- End Sections -->
 
         <!--  Begin Footer  -->
-        <footer>
+        <footer id="footer">
 
             <!--    Contact    -->
 
@@ -1003,7 +1003,7 @@
             <li><a class="page-scroll" href="#menu">Menus</a></li>
             <li><a class="page-scroll" href="#gallery">Gallery</a></li>
             <li><a class="page-scroll" href="#reservation">Reservation</a></li>
-            <li><a class="page-scroll" href="#contact">Contact</a></li>
+            <li><a class="page-scroll" href="#footer">Contact</a></li>
         </ul>
         <div class="right_menu_addr top_addr">
             <span><i class="fa fa-map-marker" aria-hidden="true"></i> Your country, your city, 12345</span>

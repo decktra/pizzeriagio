@@ -149,7 +149,7 @@ a:focus {
 }
 
 #gallery .members .position,
-#contact .form-control,
+#footer .form-control,
 .section-short,
 #menu_items .info .short {
     font-weight: normal;
@@ -170,8 +170,7 @@ a:focus {
 #about_us .title,
 .section-title,
 .btn-border,
-#contact .control-label,
-#contacts .contact-links,
+#footer .control-label,
 .item_name {
     font-weight: normal;
     font-family: 'ChunkFiveEx';
@@ -1405,7 +1404,7 @@ a:focus {
 ==========================================
 /*----------------------------------------*/
 
-#contact {
+#footer > .section {
     position: relative;
     overflow: hidden;
     padding-top: 0;
@@ -1420,7 +1419,7 @@ a:focus {
     width: 100%;
 }
 
-#contact .triangle {
+#footer .triangle {
     width: 134%;
     height: 0;
     border-style: solid;
@@ -1431,20 +1430,20 @@ a:focus {
     left: -17%;
 }
 
-#contact .social-links {
+#footer .social-links {
     float: right;
 }
 
-#contact .social-links .list-inline {
+#footer .social-links .list-inline {
     margin: 0;
 }
 
-#contact .social-links li {
+#footer .social-links li {
     padding: 0;
     margin-left: 4px;
 }
 
-#contact .social-links a {
+#footer .social-links a {
     color: #fff;
     border: 1px solid;
     display: flex;
@@ -1461,28 +1460,28 @@ a:focus {
     transition: all .3s ease-out;
 }
 
-#contact .social-links a:hover {
+#footer .social-links a:hover {
     background-color: #fff;
     color: #990100;
 }
 
-#contact .footer-text {
+#footer .footer-text {
     color: #fff;
     font-size: 17px;
 }
 
-#contact .copyright {
+#footer .copyright {
     background-color: #990100;
     padding: 20px 0;
 }
 
-#contact .footer_content {
+#footer .footer_content {
     background-color: #f6a525;
     color: #fff;
     padding: 0 45px 0 20px;
 }
 
-#contact .week_day {
+#footer .week_day {
     float: left;
     background-color: #f6a525;
     position: relative;
@@ -1490,18 +1489,18 @@ a:focus {
     padding-right: 20px;
 }
 
-#contact .footer_ttl {
+#footer .footer_ttl {
     text-transform: uppercase;
     font-family: 'ChunkFiveEx';
     font-size: 18px;
     margin-top: 30px;
 }
 
-#contact .footer_ttl_padd {
+#footer .footer_ttl_padd {
     padding-left: 30px;
 }
 
-#contact .footer_border {
+#footer .footer_border {
     padding-left: 30px;
     border-left: 1px solid #990100;
     min-height: 150px;
@@ -1509,7 +1508,7 @@ a:focus {
     margin-top: 20px;
 }
 
-#contact .footer_txt {
+#footer .footer_txt {
     font-family: 'Montserrat-Light';
     line-height: 24px;
     font-size: 14px;
@@ -1517,12 +1516,12 @@ a:focus {
     padding-left: 30px;
 }
 
-#contact .footer_col {
+#footer .footer_col {
     padding-right: 20px;
     border-right: 1px solid red;
 }
 
-#contact .week_time {
+#footer .week_time {
     float: right;
     background-color: #f6a525;
     padding-left: 20px;
@@ -1530,13 +1529,13 @@ a:focus {
     z-index: 1;
 }
 
-#contact .week_row {
+#footer .week_row {
     position: relative;
     overflow: hidden;
     font-family: 'Montserrat-Light';
 }
 
-#contact .week_row:after {
+#footer .week_row:after {
     content: "";
     position: absolute;
     top: 50%;
@@ -1546,39 +1545,39 @@ a:focus {
     border-top: 1px dotted #fff
 }
 
-#contact .footer_cnt {
+#footer .footer_cnt {
     position: relative;
     padding-left: 20px;
     margin-bottom: 20px;
 }
 
-#contact .footer_cnt .fa {
+#footer .footer_cnt .fa {
     font-size: 17px;
     position: absolute;
     left: 0;
     top: 0;
 }
 
-#contact .week_time {
+#footer .week_time {
     min-width: 127px;
 }
 
-#contact .footer_cnt span {
+#footer .footer_cnt span {
     font-family: 'Montserrat-Light';
 }
 
-#contact .week_time_node {
+#footer .week_time_node {
     padding: 0 10px;
 }
 
-#contact .copy_text {
+#footer .copy_text {
     font-family: 'Montserrat-Bold';
     font-size: 14px;
     text-transform: uppercase;
     color: #fff;
 }
 
-#contact .copy_text span {
+#footer .copy_text span {
     margin: 0 6px;
 }
 
