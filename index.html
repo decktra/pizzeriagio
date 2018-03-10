@@ -22,7 +22,7 @@
     <link href="css/bootstrap-datepicker.css" type="text/css" rel="stylesheet" />
     <link href="css/bootstrap-datetimepicker.css" type="text/css" rel="stylesheet" />
     <link href="css/touch-sideswipe.css" type="text/css" rel="stylesheet" />
-    <link href="css/fancb/jquery.fancybox.css" type="text/css" rel="stylesheet" />
+    <link href="css/jquery.fancybox.css" type="text/css" rel="stylesheet" />
     <link href="css/main.css" type="text/css" rel="stylesheet" />
     <link href="css/responsive.css" type="text/css" rel="stylesheet" />
 
