@@ -44,6 +44,18 @@
 <!-- BEGIN body -->
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
+  
+    <!-- BEGIN  Loading Section -->  
+    <div class="loading-overlay">
+        <div class="spinner">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    <!-- END loading section -->    
 
     <!-- BEGIN body wrapper -->
     <div class="body-wrapper">

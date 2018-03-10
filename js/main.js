@@ -2,6 +2,14 @@
 
 $(document).ready(function() {
 
+    // Loading overlay
+
+    $(window).on('load', function () {
+        $('.loading-overlay').fadeOut(100);
+    });
+
+    // Carousel slider
+
     $('.carousel').carousel({
       arrows: true
     })
