@@ -1806,7 +1806,7 @@ a:focus {
 ==========================================
 /*----------------------------------------*/
 .loading-overlay {
-    background:#222;
+    background:#fff;
     position:fixed;
     left:0;
     top:0;
