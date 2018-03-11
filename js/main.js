@@ -2,6 +2,43 @@
 
 $(document).ready(function() {
 
+
+    //open left menu clicking the left menu icon
+    $('.left_menu_icon').on('click', function(event){
+        event.preventDefault();
+        toggleLeftNav(true);
+        $("body").css({'overflow':'hidden'});
+    });
+    
+    //open right menu clicking the right menu icon
+    $('.right_menu_icon').on('click', function(event){
+        event.preventDefault();
+        toggleRightNav(true);
+        $("body").css({'overflow':'hidden'});
+    });
+    
+    $('.cd-close-nav, .cd-overlay').on('click', function(event){
+        event.preventDefault();
+        toggleLeftNav(false);
+        toggleRightNav(false);
+        $("body").css({'overflow':'auto'});
+    });
+    //select a new section
+    $('.cd-nav li').on('click', function(){
+
+    });
+
+    function toggleLeftNav(bool) {
+        $('.left_menu, .cd-overlay').toggleClass('is-visible', bool);
+        $('main').toggleClass('scale-down', bool);
+    }
+
+    function toggleRightNav(bool) {
+        $('.right_menu, .cd-overlay').toggleClass('is-visible', bool);
+        $('main').toggleClass('scale-down', bool);
+    }
+        
+
     // Loading overlay
 
     $(window).on('load', function () {
