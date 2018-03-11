@@ -761,7 +761,7 @@
             <div id="photo_gallery">
                 <div class="row">
                     <div class="col-md-3">
-                        <a href="img/photos/gallery-1.jpg" class="block fancybox" rel="gallery">
+                        <a href="img/photos/gallery-1.jpg" class="block fancybox" data-fancybox-group="fancybox">
                             <div class="content">
                                 <img src="img/photos/gallery-1.jpg" alt="sample" />
                                 <div class="zoom">
@@ -771,7 +771,7 @@
                         </a>
                     </div>
                     <div class="col-md-3">
-                        <a href="img/photos/gallery-2.jpg" class="block fancybox" rel="gallery">
+                        <a href="img/photos/gallery-2.jpg" class="block fancybox" data-fancybox-group="fancybox">
                             <div class="content">
                                 <img src="img/photos/gallery-2.jpg" alt="sample" />
                                 <div class="zoom">
@@ -781,7 +781,7 @@
                         </a>
                     </div>
                     <div class="col-md-3">
-                        <a href="img/photos/gallery-3.jpg" class="block fancybox" rel="gallery">
+                        <a href="img/photos/gallery-3.jpg" class="block fancybox" data-fancybox-group="fancybox">
                             <div class="content">
                                 <img src="img/photos/gallery-3.jpg" alt="sample" />
                                 <div class="zoom">
@@ -791,7 +791,7 @@
                         </a>
                     </div>
                     <div class="col-md-3">
-                        <a href="img/photos/gallery-4.jpg" class="block fancybox" rel="gallery">
+                        <a href="img/photos/gallery-4.jpg" class="block fancybox" data-fancybox-group="fancybox">
                             <div class="content">
                                 <img src="img/photos/gallery-4.jpg" alt="sample" />
                                 <div class="zoom">
@@ -801,7 +801,7 @@
                         </a>
                     </div>
                     <div class="col-md-3">
-                        <a href="img/photos/gallery-5.jpg" class="block fancybox" rel="gallery">
+                        <a href="img/photos/gallery-5.jpg" class="block fancybox" data-fancybox-group="fancybox">
                             <div class="content">
                                 <img src="img/photos/gallery-5.jpg" alt="sample" />
                                 <div class="zoom">
@@ -811,7 +811,7 @@
                         </a>
                     </div>
                     <div class="col-md-3">
-                        <a href="img/photos/gallery-6.jpg" class="block fancybox" rel="gallery">
+                        <a href="img/photos/gallery-6.jpg" class="block fancybox" data-fancybox-group="fancybox">
                             <div class="content">
                                 <img src="img/photos/gallery-6.jpg" alt="sample" />
                                 <div class="zoom">
@@ -821,7 +821,7 @@
                         </a>
                     </div>
                     <div class="col-md-3">
-                        <a href="img/photos/gallery-7.jpg" class="block fancybox" rel="gallery">
+                        <a href="img/photos/gallery-7.jpg" class="block fancybox" data-fancybox-group="fancybox">
                             <div class="content">
                                 <img src="img/photos/gallery-7.jpg" alt="sample" />
                                 <div class="zoom">
@@ -831,7 +831,7 @@
                         </a>
                     </div>
                     <div class="col-md-3">
-                        <a href="img/photos/gallery-8.jpg" class="block fancybox" rel="gallery">
+                        <a href="img/photos/gallery-8.jpg" class="block fancybox" data-fancybox-group="fancybox">
                             <div class="content">
                                 <img src="img/photos/gallery-8.jpg" alt="sample" />
                                 <div class="zoom">
@@ -1056,7 +1056,7 @@
             });
         });
     </script>
-    <script type="text/javascript">
+    <script>
         jQuery(document).ready(function($) {
             $('.fancybox')
                 .fancybox({                     
