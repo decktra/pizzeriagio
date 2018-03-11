@@ -2,6 +2,8 @@
 
 $(document).ready(function() {
 
+    //======= START Touch Swipe mobile menu ========
+
 
     //open left menu clicking the left menu icon
     $('.left_menu_icon').on('click', function(event){
@@ -37,21 +39,31 @@ $(document).ready(function() {
         $('.right_menu, .cd-overlay').toggleClass('is-visible', bool);
         $('main').toggleClass('scale-down', bool);
     }
-        
 
-    // Loading overlay
+    //======= END Touch Swipe mobile menu ========
+
+
+    //======= START Loading overlay ========
 
     $(window).on('load', function () {
         $('.loading-overlay').fadeOut(100);
     });
 
-    // Carousel slider
+    //======= END Loading overlay ========
+
+
+    //======= START Carousel slider ========
 
     $('.carousel').carousel({
       arrows: true
     })
 
-    // Menu filter
+    //======= END Carousel slider ========
+
+
+
+    //======= START Menu filter ========
+
 	$(document).on('click', '.filter-button', function(){
 
 		$(".filter-button").closest('li').removeClass("active")
@@ -71,57 +83,11 @@ $(document).ready(function() {
         }
     });
 
-	// Gallery Carousel
-    $('#gallery .members').slick({
-        slidesToShow: 3,
-        slidesToScroll: 3,
-        infinite: false,
-        arrows: true,
-        dots: true,
-         responsive: [
-            {
-              breakpoint: 767,
-              settings: {
-                slidesToShow: 2,
-                slidesToScroll: 2
-              }
-            },
-            {
-              breakpoint: 567,
-              settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1
-              }
-            }
-            // You can unslick at a given breakpoint now by adding:
-            // settings: "unslick"
-            // instead of a settings object
-          ]
-    });
+    //======= END Menu filter ========
 
-    // Partners Carousel
-    $('#partners .items').slick({
-        slidesToShow: 4,
-        slidesToScroll: 1,
-        infinite: true,
-        arrows: false,
-        dots: false,
-        autoplay: true,
-        autoplaySpeed: 2000,
-        responsive: [
-            {
-              breakpoint: 767,
-              settings: {
-                slidesToShow: 2,
-                slidesToScroll: 2
-              }
-            }
-            // You can unslick at a given breakpoint now by adding:
-            // settings: "unslick"
-            // instead of a settings object
-          ]
-    }
-    );
+
+    //======= START Search panel ========
+
 
     // Hide search panel
     function hideNavbarSearch() {
@@ -148,12 +114,26 @@ $(document).ready(function() {
         }
     });
 
+
+    //======= END Search panel ========
+
+
+    //======= START AOS Animate ========
+
+
     // Init AOS Animate On Scroll Library
     AOS.init({
         duration: 1200,
         startEvent: 'DOMContentLoaded',
         once: true,
     });
+
+
+    //======= END AOS Animate ========
+
+
+
+    //======= START Swipe Carousel slider ========
 
     // Add swipe mod to bootstrap carousel
     $(".carousel").swipe({
@@ -168,9 +148,14 @@ $(document).ready(function() {
 
     });
 
+
+    //======= END Swipe Carousel slider ========
+
 });
 
-  // Init Google map
+    //======= START Init Google Map ========
+
+
 function myMap() {
 
     var iconBase = 'img/map-marker.png';
@@ -196,3 +181,5 @@ function myMap() {
     });
 
 }
+
+    //======= END Init Google Map ========
