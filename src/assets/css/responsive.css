@@ -57,7 +57,7 @@
 	.footer_pos { top: 20px; }
 	#footer .footer_content { padding: 0 20px; }
     .carousel .container { padding-bottom: 50px!important; }
-	.carousel-caption { padding-top: 40px!important; right: 9%; left: 9%; }
+	.carousel-caption { /*padding-top: 40px!important;*/ right: 9%; left: 9%; }
     .navbar-brand { height: auto; }
     .navbar { padding: 0; border: none; }
     #footer .footer_border { border: none; padding-left: 0; }
@@ -189,7 +189,7 @@
 	#footer .social-links { float: left; margin-top: 15px; }
 	#googleMap { margin-bottom: 120px!important; }
 	#photo_gallery>.row>div, .filtr-item>.row>div { width: 50%; float: left; }
-	.carousel-caption { padding-top: 250px!important; }
+	/*.carousel-caption { padding-top: 250px!important; }*/
 }
 
 
@@ -201,7 +201,7 @@
 	.item_img { margin: 0; }
 	.item_img img { width: 100%; }
     .item_details { clear: both; }
-    .carousel-caption { padding-top: 150px; }
+    .carousel-caption { padding-top: 120px; }
     .item_name, .carousel-caption p, .item_link_box { text-align: left; }
     .item_name:after { left: 0; right: auto; }
     .item_link { margin-top: 10px; }

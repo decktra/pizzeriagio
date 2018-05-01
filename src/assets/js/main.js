@@ -158,7 +158,7 @@ $(document).ready(function() {
 
 function myMap() {
 
-    var iconBase = 'img/map-marker.png';
+    var iconBase = 'src/assets/img/map-marker.png';
 
     var mapProp= {
         center:new google.maps.LatLng(51.508742,-0.120850),

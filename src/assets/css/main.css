@@ -68,6 +68,9 @@ a:focus {
 
 .pos_rel {
     position: relative;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
 }
 
 .d-flex {
@@ -432,6 +435,7 @@ a:focus {
     margin: 0;
     bottom: auto;
     text-shadow: none;
+    padding: 0; 
 }
 
 .carousel-caption h1 {
