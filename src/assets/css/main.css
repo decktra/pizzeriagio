@@ -663,6 +663,9 @@ a:focus {
 
 #about_us {
     padding-top: 60px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
 }
 
 #about_us .content {
@@ -1362,8 +1365,10 @@ a:focus {
     background: url('../img/photos/reservation.jpg') 50% 0 no-repeat fixed;
     background-size: cover;
     color: #fff;
-    height: 560px;
     padding: 40px 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
 }
 
 .fixed_layer:after {
