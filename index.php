@@ -6,7 +6,8 @@
 <head>
 
     <!-- Meta tags -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="description" content="">
     <meta name="author" content="">
@@ -710,13 +711,13 @@
                             <p class="short">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
                             <form id="reserv_form" method="post">
                                 <div class="row">
-                                    <div class="col-md-6">
+                                    <div class="col-sm-6">
                                         <div class="form-group form_pos">
                                             <input type="text" name="name" required="" placeholder="Your name" class="form-control" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your name'" />
                                             <span class="form_icon"></span>
                                         </div>
                                     </div>
-                                    <div class="col-md-6">
+                                    <div class="col-sm-6">
                                         <div class="form-group form_pos">
                                             <input type="email" name="email" required="" placeholder="Your email" class="form-control" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your email'" />
                                             <span class="form_icon"></span>
@@ -724,19 +725,19 @@
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-md-4">
+                                    <div class="col-sm-4">
                                         <div class="form-group form_pos">
                                             <input type="text" name="phone" required="" placeholder="Phone" class="form-control" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Phone'" />
                                             <span class="form_icon"></span>
                                         </div>
                                     </div>
-                                    <div class="col-md-4">
+                                    <div class="col-sm-4">
                                         <div class="form-group form_pos">
                                             <input type="text" name="date" required="" placeholder="Date" class="form-control" id="reserv_date" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Date'" />
                                             <span class="form_icon"></span>
                                         </div>
                                     </div>
-                                    <div class="col-md-4">
+                                    <div class="col-sm-4">
                                         <div class="form-group form_pos">
                                             <input type="text" name="time" required="" placeholder="Time" class="form-control" id="reserv_time" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Time'" />
                                             <span class="form_icon"></span>
@@ -762,7 +763,7 @@
             </div>
             <div id="photo_gallery" data-aos="fade-up">
                 <div class="row">
-                    <div class="col-md-3">
+                    <div class="col-sm-3">
                         <a href="src/assets/img/photos/gallery-1.jpg" class="block fancybox" data-fancybox-group="fancybox">
                             <div class="content">
                                 <img src="src/assets/img/photos/gallery-1.jpg" alt="sample" />
@@ -772,7 +773,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-sm-3">
                         <a href="src/assets/img/photos/gallery-2.jpg" class="block fancybox" data-fancybox-group="fancybox">
                             <div class="content">
                                 <img src="src/assets/img/photos/gallery-2.jpg" alt="sample" />
@@ -782,7 +783,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-sm-3">
                         <a href="src/assets/img/photos/gallery-3.jpg" class="block fancybox" data-fancybox-group="fancybox">
                             <div class="content">
                                 <img src="src/assets/img/photos/gallery-3.jpg" alt="sample" />
@@ -792,7 +793,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-sm-3">
                         <a href="src/assets/img/photos/gallery-4.jpg" class="block fancybox" data-fancybox-group="fancybox">
                             <div class="content">
                                 <img src="src/assets/img/photos/gallery-4.jpg" alt="sample" />
@@ -802,7 +803,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-sm-3">
                         <a href="src/assets/img/photos/gallery-5.jpg" class="block fancybox" data-fancybox-group="fancybox">
                             <div class="content">
                                 <img src="src/assets/img/photos/gallery-5.jpg" alt="sample" />
@@ -812,7 +813,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-sm-3">
                         <a href="src/assets/img/photos/gallery-6.jpg" class="block fancybox" data-fancybox-group="fancybox">
                             <div class="content">
                                 <img src="src/assets/img/photos/gallery-6.jpg" alt="sample" />
@@ -822,7 +823,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-sm-3">
                         <a href="src/assets/img/photos/gallery-7.jpg" class="block fancybox" data-fancybox-group="fancybox">
                             <div class="content">
                                 <img src="src/assets/img/photos/gallery-7.jpg" alt="sample" />
@@ -832,7 +833,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-sm-3">
                         <a href="src/assets/img/photos/gallery-8.jpg" class="block fancybox" data-fancybox-group="fancybox">
                             <div class="content">
                                 <img src="src/assets/img/photos/gallery-8.jpg" alt="sample" />
@@ -866,11 +867,11 @@
                     <div class="container">
                         <div class="footer_content">
                             <div class="row">
-                                <div class="col-md-4">
+                                <div class="col-sm-6 col-md-4">
                                     <h4 class="footer_ttl footer_ttl_padd">about us</h4>
                                     <p class="footer_txt">Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has survived not only five centuries but also the leap into electronic typesetting. </p>
                                 </div>
-                                <div class="col-md-5">
+                                <div class="col-sm-6 col-md-5">
                                     <h4 class="footer_ttl footer_ttl_padd">working hours</h4>
                                     <div class="footer_border">
                                         <div class="week_row clearfix">
@@ -930,7 +931,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-3">
+                                <div class="col-sm-12 col-md-3">
                                     <h4 class="footer_ttl footer_ttl_padd">contact us</h4>
                                     <div class="footer_border">
                                         <div class="footer_cnt">
