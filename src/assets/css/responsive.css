@@ -123,19 +123,24 @@
 @media only screen and (max-width: 992px) {
     #googleMap { margin-bottom: 0; height: 300px; }
     .footer_pos { top: 20px; position: relative; padding-bottom: 20px; }
-	.item_img { margin: 0; flex: 1 100%; }
+	.item_img { margin: 0 0 -70px; padding-right: 0; }
     .item_details { clear: both; text-align: center; }
-    .carousel-caption { padding-top: 120px; display: flex; align-items: center; flex-wrap: wrap;}
+    .carousel-caption { padding-top: 120px; display: flex; align-items: center; flex-wrap: wrap; flex-direction: column;}
     .item_name, .carousel-caption p, .item_link_box { text-align: center; }
     .item_name:after { left: 50%; transform: translateX(-50%); }
     .item_link { margin-top: 10px; }
     .carousel-indicators { bottom: 10px; }
     .carousel .container { padding-bottom: 30px; }
-    .item_badge { width: 100px; height: 100px; right: 15%; bottom: 15%; transform: translate(-15%, -15%); }
+    .item_badge { width: 100px; height: 100px; right: 0; bottom: 15%; transform: translate(-15%, -15%); }
     .badge_btext { font-size: 26px; }
     .badge_stext { font-size: 18px; }
     #footer .footer_border { border: none; padding-left: 0; }
     #footer .footer_ttl_padd, #footer .footer_txt { padding-left: 0; }
+}
+@media only screen and (min-width: 992px) {
+    .carousel-caption {
+        top: 59%;
+    }
 }
 @media only screen and (max-width: 1200px) {
     .border_on:before { content: none; } 
