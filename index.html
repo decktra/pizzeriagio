@@ -705,7 +705,7 @@
         <div class="fixed_layer section" id="reservation">
             <div class="fixed_layer_padd container">
                 <div class="row">
-                    <div class="col-md-offset-6 col-md-6" data-aos="fade-left">
+                    <div class="col-md-offset-6 col-md-6" data-aos="fade-down">
                         <div class="reserv_box">
                             <h1 class="section-title title_sty1">online reservation</h1>
                             <p class="short">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
