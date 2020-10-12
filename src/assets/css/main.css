@@ -64,6 +64,8 @@ a:focus {
     text-decoration: none;
 }
 
+.top10 { margin-top:10px; }
+
 .form-control:focus {
     border: 0 1px 0 0;
     border-color: #fff;
