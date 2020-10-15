@@ -267,7 +267,7 @@ $(document).ready(function() {
 
     //======= START Slick slider ========
 
-    $('#chef-slider').slick({
+    $('.chef-slider').slick({
         slidesToShow: 3,
         slidesToScroll: 3,
         autoplay: false,
