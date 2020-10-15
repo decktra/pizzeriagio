@@ -14,7 +14,6 @@
     |___ Touch Swipe mobile menu
     |___ Loading overlay
     |___ Carousel slider
-    |___ Menu filter
 	|___ Search panel
 	|___ AOS Animate
 	|___ Swipe Carousel slider
@@ -105,30 +104,6 @@ $(document).ready(function() {
     })
 
     //======= END Carousel slider ========
-
-
-    //======= START Menu filter ========
-
-    $(document).on('click', '.filter-button', function(){
-
-        $(".filter-button").closest('li').removeClass("active")
-        $(this).closest('li').addClass("active");
-
-        var value = $(this).attr('data-filter');
-        
-        if(value === "active")
-        {
-            $('.filter').show('1000');
-        }
-        else
-        {
-            $(".filter").not('.'+value).hide('3000');
-            $('.filter').filter('.'+value).show('3000');
-            
-        }
-    });
-
-    //======= END Menu filter ========
 
 
     //======= START Search panel ========
@@ -292,7 +267,7 @@ $(document).ready(function() {
 
     //======= START Slick slider ========
 
-    $('.chef-slider').slick({
+    $('#chef-slider').slick({
         slidesToShow: 3,
         slidesToScroll: 3,
         autoplay: false,

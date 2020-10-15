@@ -64,8 +64,6 @@ a:focus {
     text-decoration: none;
 }
 
-.top10 { margin-top:10px; }
-
 .form-control:focus {
     border: 0 1px 0 0;
     border-color: #fff;
@@ -106,6 +104,10 @@ a:focus {
 
 .fade-in {
     opacity: 0;
+}
+
+.fade {
+    transition: opacity .5s ease-in-out;
 }
 
 .btn-border {
@@ -534,6 +536,7 @@ a:focus {
     padding-bottom: 10px;
     margin-bottom: 15px;
     text-align: right;
+    white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
 }
@@ -583,7 +586,9 @@ a:focus {
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
-    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;  
 }
 
 .item_link_box {
@@ -829,6 +834,33 @@ a:focus {
 
 .menu_filter {
     margin-bottom: 80px;
+    border: none;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;  
+}
+
+.menu_filter.nav>li {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.menu_filter.nav>li.active>a {
+    border-color: #990100;
+    background-color: #990100;
+    color: #fff;
+}
+
+.menu_filter.nav>li+li:after {
+    content: none;
 }
 
 .menu_filter .item {
@@ -974,6 +1006,7 @@ a:focus {
 #menu_items .info .short {
     color: #838383;
     font-family: 'Montserrat-Regular';
+    white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
 }
@@ -1499,7 +1532,7 @@ a:focus {
     content: "";
     height: 100%;
     width: 100%;
-    /* background-color: rgba(0, 0, 0, .65); */
+    background-color: rgba(0, 0, 0, .65);
     position: absolute;
     top: 0;
     left: 0;
