@@ -171,31 +171,31 @@ $(document).ready(function() {
 
     //======= START Init Google Map ========
 
-    function myMap() {
+    // function myMap() {
 
-        var iconBase = 'src/assets/img/map-marker.png';
+    //     var iconBase = 'src/assets/img/map-marker.png';
 
-        var mapProp= {
-            center:new google.maps.LatLng(51.508742,-0.120850),
-            zoom:10,
-            icon: iconBase,
-            zoomControlOptions: {
-                position: google.maps.ControlPosition.RIGHT_CENTER
-            },
-            streetViewControlOptions: {
-                position: google.maps.ControlPosition.RIGHT_CENTER
-            },
-        };
+    //     var mapProp= {
+    //         center:new google.maps.LatLng(51.508742,-0.120850),
+    //         zoom:10,
+    //         icon: iconBase,
+    //         zoomControlOptions: {
+    //             position: google.maps.ControlPosition.RIGHT_CENTER
+    //         },
+    //         streetViewControlOptions: {
+    //             position: google.maps.ControlPosition.RIGHT_CENTER
+    //         },
+    //     };
 
-        var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+    //     var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
 
-        var marker = new google.maps.Marker({
-            position: mapProp.center,
-            map: map,
-            icon: iconBase
-        });
+    //     var marker = new google.maps.Marker({
+    //         position: mapProp.center,
+    //         map: map,
+    //         icon: iconBase
+    //     });
 
-    }
+    // }
 
     //======= END Init Google Map ========
 
