@@ -46,7 +46,7 @@
 	.item_badge { width: 90px!important; height: 90px!important; } 
 	.badge_btext { font-size: 28px; }
 	.badge_stext { font-size: 18px; margin-top: -5px; }
-	.item_name { font-size: 30px; line-height: 48px; }
+	.item_name { font-size: 30px; line-height: 48px; margin-top: 80px;}
     #footer > .section { margin-top: 20px; }
     #footer .copy_text { margin-bottom: 20px; }
 	#footer .footer_content { padding: 0 20px; }
