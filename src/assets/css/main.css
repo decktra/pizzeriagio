@@ -1381,6 +1381,10 @@ a:focus {
     margin-top: 30px;
 }
 
+a.astrid {
+    color: white;
+}
+
 a.btn-phone {
     color: white;
     background: none;
