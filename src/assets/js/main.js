@@ -171,31 +171,47 @@ $(document).ready(function() {
 
     //======= START Init Google Map ========
 
-    function myMap() {
-
-        var iconBase = 'src/assets/img/map-marker.png';
-
-        var mapProp= {
-            center:new google.maps.LatLng(51.508742,-0.120850),
-            zoom:10,
-            icon: iconBase,
-            zoomControlOptions: {
-                position: google.maps.ControlPosition.RIGHT_CENTER
-            },
-            streetViewControlOptions: {
-                position: google.maps.ControlPosition.RIGHT_CENTER
-            },
-        };
-
-        var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
-
-        var marker = new google.maps.Marker({
-            position: mapProp.center,
-            map: map,
-            icon: iconBase
+    // Initialize and add the map
+    function initMap() {
+        // The location of Uluru
+        const uluru = { lat: 51.508742, lng: -0.120850 };
+        // The map, centered at Uluru
+        const map = new google.maps.Map(document.getElementById("googleMap"), {
+        zoom: 10,
+        center: uluru,
         });
-
+        // The marker, positioned at Uluru
+        const marker = new google.maps.Marker({
+        position: uluru,
+        map: map,
+        });
     }
+
+    // function myMap() {
+
+    //     var iconBase = 'src/assets/img/map-marker.png';
+
+    //     var mapProp= {
+    //         center:new google.maps.LatLng(,),
+    //         zoom:10,
+    //         icon: iconBase,
+    //         zoomControlOptions: {
+    //             position: google.maps.ControlPosition.RIGHT_CENTER
+    //         },
+    //         streetViewControlOptions: {
+    //             position: google.maps.ControlPosition.RIGHT_CENTER
+    //         },
+    //     };
+
+    //     var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+    //     var marker = new google.maps.Marker({
+    //         position: mapProp.center,
+    //         map: map,
+    //         icon: iconBase
+    //     });
+
+    // }
 
     //======= END Init Google Map ========
 
