@@ -177,7 +177,7 @@ $(document).ready(function() {
         const uluru = { lat: 41.3170929, lng: 2.0266227 };
         // The map, centered at Uluru
         const map = new google.maps.Map(document.getElementById("googleMap"), {
-        zoom: 10,
+        zoom: 30,
         center: uluru,
         });
         // The marker, positioned at Uluru
